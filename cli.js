@@ -10,7 +10,7 @@ process.argv.slice(2).forEach(arg => {
 });
 
 function printUnusedList(type, idents) {
-  idents.sort().forEach(ident => console.log(`unused ${type}: ${ident}`));
+  idents.sort().forEach(ident => console.log(`unused ${type}: ${ident.path} - ${ident.id}`));
 }
 
 const { vars, mixins, functions } = findUnused(srcFiles);
