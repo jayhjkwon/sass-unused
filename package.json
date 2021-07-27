@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "glob": "^7.0.5",
+    "lodash": "^4.17.21",
     "postcss-scss": "^2.1.1"
   },
   "repository": "robertknight/sass-unused",
